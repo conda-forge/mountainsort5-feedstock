@@ -1,5 +1,5 @@
 {% set name = "mountainsort5" %}
-{% set version = "0.5.8" %}
+{% set version = "0.5.9" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
-  sha256: 499b35d3c8f5ee152ab25cc1de9bb70bb25fa44ac7b66058a4864f0cc93bca16
+  sha256: 8c04d53046d773fdf94cdac639c2e5a8eb156d2af4395f5bf51b99f3f9d33423
 
 build:
   noarch: python
